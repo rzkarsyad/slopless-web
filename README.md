@@ -18,21 +18,30 @@ Brief → References (Mobbin + URLs) → Teardown → Design Direction → Build
 
 ## Install
 
-### Claude Code
+### As a plugin (recommended)
 
-```bash
-# personal (all projects)
-mkdir -p ~/.claude/skills
-cp -r skills/slopless-web ~/.claude/skills/
+This repo is a plugin marketplace. In Claude Code:
 
-# or project-only
-mkdir -p .claude/skills
-cp -r skills/slopless-web .claude/skills/
+```
+/plugin marketplace add rzkarsyad/slopless-web
+/plugin install slopless-web@slopless-web
 ```
 
-### Claude app (claude.ai / desktop)
+Pick up future updates with `/plugin marketplace update slopless-web`.
 
-Zip the `skills/slopless-web` folder and upload it under **Settings → Capabilities → Skills**.
+In the Claude desktop app, add `rzkarsyad/slopless-web` (or `https://github.com/rzkarsyad/slopless-web`) as a plugin marketplace from the plugins screen, then install **slopless-web**.
+
+### Manual copy
+
+```bash
+git clone https://github.com/rzkarsyad/slopless-web
+mkdir -p ~/.claude/skills
+cp -r slopless-web/skills/slopless-web ~/.claude/skills/
+```
+
+### Claude app skill upload
+
+Zip the `skills/slopless-web` folder and upload it in Claude's Skills settings.
 
 ## Recommended connections
 
