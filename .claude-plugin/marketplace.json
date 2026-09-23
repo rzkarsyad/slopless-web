@@ -1,0 +1,19 @@
+{
+  "name": "slopless-web",
+  "owner": {
+    "name": "Arsyad (Magercoding)",
+    "url": "https://github.com/rzkarsyad"
+  },
+  "metadata": {
+    "description": "Reference-driven web design skills for Claude."
+  },
+  "plugins": [
+    {
+      "name": "slopless-web",
+      "source": "./",
+      "description": "Design websites that don't look AI-generated: Mobbin + live URL references, a required design direction, and a slop audit before delivery.",
+      "version": "1.0.0",
+      "category": "design"
+    }
+  ]
+}
