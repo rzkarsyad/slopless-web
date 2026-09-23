@@ -1,0 +1,13 @@
+{
+  "name": "slopless-web",
+  "description": "Design websites that don't look AI-generated: Mobbin + live URL references, a required design direction, and a slop audit before delivery.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Arsyad (Magercoding)",
+    "url": "https://github.com/rzkarsyad"
+  },
+  "homepage": "https://github.com/rzkarsyad/slopless-web",
+  "repository": "https://github.com/rzkarsyad/slopless-web",
+  "license": "MIT",
+  "keywords": ["design", "web-design", "landing-page", "mobbin", "figma", "anti-ai-slop"]
+}
